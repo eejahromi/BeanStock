@@ -10,12 +10,32 @@
 		2FE7D5331BEA99A7001FA967 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7D5321BEA99A7001FA967 /* LoginViewController.m */; };
 		2FE7D5361BEAC6D8001FA967 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7D5351BEAC6D8001FA967 /* SignUpViewController.m */; };
 		2FE7D5391BEAC86A001FA967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE7D5371BEAC86A001FA967 /* Main.storyboard */; };
+		2FEA39FA1BFA6FD300935A85 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA39F91BFA6FD300935A85 /* LightViewController.m */; };
+		2FEA39FD1BFA928300935A85 /* ToasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA39FC1BFA928300935A85 /* ToasterViewController.m */; };
+		2FEA3A001BFA9D3A00935A85 /* HeaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA39FF1BFA9D3A00935A85 /* HeaterViewController.m */; };
+		2FEA3A031BFAAA7200935A85 /* FanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA3A021BFAAA7200935A85 /* FanViewController.m */; };
+		2FF307171BFD2E6400F73F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF307161BFD2E6400F73F25 /* CoreGraphics.framework */; };
+		2FF307191BFD2E6E00F73F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF307181BFD2E6E00F73F25 /* UIKit.framework */; };
+		2FF3071B1BFD2E7F00F73F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF3071A1BFD2E7F00F73F25 /* Foundation.framework */; };
+		2FF3071E1BFD2EE400F73F25 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3071D1BFD2EE400F73F25 /* UIView+Shake.m */; };
+		2FF307211BFD339D00F73F25 /* AnyObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF307201BFD339D00F73F25 /* AnyObjectViewController.m */; };
+		2FF3072F1BFD547400F73F25 /* CircularPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3072E1BFD547400F73F25 /* CircularPower.m */; };
+		2FF307331BFDAAD500F73F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF307321BFDAAD500F73F25 /* Assets.xcassets */; };
+		89A7653B1BEC3AC8006E569B /* BeanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A7653A1BEC3AC8006E569B /* BeanTableViewCell.m */; };
+		89A7653E1BEC4005006E569B /* BeanDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A7653D1BEC4005006E569B /* BeanDetailViewController.m */; };
+		89BD40B31BF11FCF00FAAAE5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD40B21BF11FCF00FAAAE5 /* Event.m */; };
+		89BD40B61BF13C8D00FAAAE5 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BD40B51BF13C8D00FAAAE5 /* Location.m */; };
+		89EFC4591BF286C5009F6AB9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFC4581BF286C5009F6AB9 /* HomeViewController.m */; };
+		89EFC4661BF2C0DD009F6AB9 /* CoffeeStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFC4651BF2C0DD009F6AB9 /* CoffeeStepViewController.m */; };
+		89FBB80B1BEF193100E9B71A /* Bean.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FBB80A1BEF193100E9B71A /* Bean.m */; };
+		B26D72641BFB9AD900A9B4C4 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D72631BFB9AD900A9B4C4 /* TimerViewController.m */; };
+		B26D72671BFE46D200A9B4C4 /* TempSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26D72661BFE46D200A9B4C4 /* TempSettingsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B2AD2D931BE9A560006EFD53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2D921BE9A560006EFD53 /* main.m */; };
 		B2AD2D961BE9A560006EFD53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2D951BE9A560006EFD53 /* AppDelegate.m */; };
 		B2AD2D991BE9A560006EFD53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2D981BE9A560006EFD53 /* ViewController.m */; };
-		B2AD2D9E1BE9A560006EFD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AD2D9D1BE9A560006EFD53 /* Assets.xcassets */; };
 		B2AD2DA11BE9A560006EFD53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AD2D9F1BE9A560006EFD53 /* LaunchScreen.storyboard */; };
 		B2AD2DF31BE9B32A006EFD53 /* AddBeanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2DF21BE9B32A006EFD53 /* AddBeanViewController.m */; };
+		B2AD2EB71BF101A8006EFD53 /* BeanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2EB61BF101A8006EFD53 /* BeanManager.m */; };
 		B2EC01DBDD1749D311BD9C6A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591FD67865B5A60D4D4575EE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -25,18 +45,57 @@
 		2FE7D5341BEAC6D8001FA967 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		2FE7D5351BEAC6D8001FA967 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		2FE7D5381BEAC86A001FA967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FEA39F81BFA6FD300935A85 /* LightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		2FEA39F91BFA6FD300935A85 /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
+		2FEA39FB1BFA928300935A85 /* ToasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToasterViewController.h; sourceTree = "<group>"; };
+		2FEA39FC1BFA928300935A85 /* ToasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToasterViewController.m; sourceTree = "<group>"; };
+		2FEA39FE1BFA9D3A00935A85 /* HeaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaterViewController.h; sourceTree = "<group>"; };
+		2FEA39FF1BFA9D3A00935A85 /* HeaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaterViewController.m; sourceTree = "<group>"; };
+		2FEA3A011BFAAA7200935A85 /* FanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanViewController.h; sourceTree = "<group>"; };
+		2FEA3A021BFAAA7200935A85 /* FanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanViewController.m; sourceTree = "<group>"; };
+		2FF307161BFD2E6400F73F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FF307181BFD2E6E00F73F25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FF3071A1BFD2E7F00F73F25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FF3071C1BFD2EE400F73F25 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		2FF3071D1BFD2EE400F73F25 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		2FF3071F1BFD339D00F73F25 /* AnyObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyObjectViewController.h; sourceTree = "<group>"; };
+		2FF307201BFD339D00F73F25 /* AnyObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnyObjectViewController.m; sourceTree = "<group>"; };
+		2FF3072D1BFD547400F73F25 /* CircularPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularPower.h; sourceTree = "<group>"; };
+		2FF3072E1BFD547400F73F25 /* CircularPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularPower.m; sourceTree = "<group>"; };
+		2FF307321BFDAAD500F73F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		591FD67865B5A60D4D4575EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A765391BEC3AC8006E569B /* BeanTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanTableViewCell.h; sourceTree = "<group>"; };
+		89A7653A1BEC3AC8006E569B /* BeanTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanTableViewCell.m; sourceTree = "<group>"; };
+		89A7653C1BEC4005006E569B /* BeanDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanDetailViewController.h; sourceTree = "<group>"; };
+		89A7653D1BEC4005006E569B /* BeanDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanDetailViewController.m; sourceTree = "<group>"; };
+		89BD40B11BF11FCF00FAAAE5 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		89BD40B21BF11FCF00FAAAE5 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		89BD40B41BF13C8D00FAAAE5 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		89BD40B51BF13C8D00FAAAE5 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		89EE82371BF023B200DB1E3D /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step.h; sourceTree = "<group>"; };
+		89EE82381BF023B200DB1E3D /* Step.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step.m; sourceTree = "<group>"; };
+		89EFC4571BF286C5009F6AB9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		89EFC4581BF286C5009F6AB9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		89EFC4641BF2C0DD009F6AB9 /* CoffeeStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeStepViewController.h; sourceTree = "<group>"; };
+		89EFC4651BF2C0DD009F6AB9 /* CoffeeStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeStepViewController.m; sourceTree = "<group>"; };
+		89FBB8091BEF193100E9B71A /* Bean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bean.h; sourceTree = "<group>"; };
+		89FBB80A1BEF193100E9B71A /* Bean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bean.m; sourceTree = "<group>"; };
+		B26D72621BFB9AD900A9B4C4 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		B26D72631BFB9AD900A9B4C4 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		B26D72651BFE46D200A9B4C4 /* TempSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempSettingsViewController.h; sourceTree = "<group>"; };
+		B26D72661BFE46D200A9B4C4 /* TempSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempSettingsViewController.m; sourceTree = "<group>"; };
 		B2AD2D8E1BE9A560006EFD53 /* BeanStocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanStocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AD2D921BE9A560006EFD53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2AD2D941BE9A560006EFD53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2AD2D951BE9A560006EFD53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B2AD2D971BE9A560006EFD53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B2AD2D981BE9A560006EFD53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B2AD2D9D1BE9A560006EFD53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2AD2DA01BE9A560006EFD53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2AD2DA21BE9A560006EFD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AD2DF11BE9B32A006EFD53 /* AddBeanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBeanViewController.h; sourceTree = "<group>"; };
 		B2AD2DF21BE9B32A006EFD53 /* AddBeanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBeanViewController.m; sourceTree = "<group>"; };
+		B2AD2EB51BF101A8006EFD53 /* BeanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanManager.h; sourceTree = "<group>"; };
+		B2AD2EB61BF101A8006EFD53 /* BeanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanManager.m; sourceTree = "<group>"; };
 		D05CF865C26E395D5956D077 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FC944CD65055F010EE49F625 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF3071B1BFD2E7F00F73F25 /* Foundation.framework in Frameworks */,
+				2FF307191BFD2E6E00F73F25 /* UIKit.framework in Frameworks */,
+				2FF307171BFD2E6400F73F25 /* CoreGraphics.framework in Frameworks */,
 				B2EC01DBDD1749D311BD9C6A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,9 +124,142 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		89EFC45A1BF286DB009F6AB9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FF3071F1BFD339D00F73F25 /* AnyObjectViewController.h */,
+				2FF307201BFD339D00F73F25 /* AnyObjectViewController.m */,
+				2FEA3A011BFAAA7200935A85 /* FanViewController.h */,
+				2FEA3A021BFAAA7200935A85 /* FanViewController.m */,
+				2FEA39FE1BFA9D3A00935A85 /* HeaterViewController.h */,
+				2FEA39FF1BFA9D3A00935A85 /* HeaterViewController.m */,
+				2FEA39FB1BFA928300935A85 /* ToasterViewController.h */,
+				2FEA39FC1BFA928300935A85 /* ToasterViewController.m */,
+				2FEA39F81BFA6FD300935A85 /* LightViewController.h */,
+				2FEA39F91BFA6FD300935A85 /* LightViewController.m */,
+				89EFC45E1BF28847009F6AB9 /* LoginViewControllers */,
+				89EFC45D1BF287A5009F6AB9 /* HomeViewControllers */,
+				89EFC45F1BF28991009F6AB9 /* LocationViewControllers */,
+				89EFC4601BF289A8009F6AB9 /* EventViewControllers */,
+				89EFC4611BF289B9009F6AB9 /* StepViewControllers */,
+				89EFC4621BF289C8009F6AB9 /* BeanViewControllers */,
+				89EFC4631BF289D9009F6AB9 /* SketchViewControllers */,
+				B2AD2D971BE9A560006EFD53 /* ViewController.h */,
+				B2AD2D981BE9A560006EFD53 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		89EFC45B1BF286E9009F6AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89A765391BEC3AC8006E569B /* BeanTableViewCell.h */,
+				89A7653A1BEC3AC8006E569B /* BeanTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		89EFC45C1BF28776009F6AB9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FE7D5371BEAC86A001FA967 /* Main.storyboard */,
+				B2AD2D9F1BE9A560006EFD53 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		89EFC45D1BF287A5009F6AB9 /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89EFC4571BF286C5009F6AB9 /* HomeViewController.h */,
+				89EFC4581BF286C5009F6AB9 /* HomeViewController.m */,
+			);
+			name = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		89EFC45E1BF28847009F6AB9 /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FE7D5341BEAC6D8001FA967 /* SignUpViewController.h */,
+				2FE7D5351BEAC6D8001FA967 /* SignUpViewController.m */,
+				2FE7D5311BEA99A7001FA967 /* LoginViewController.h */,
+				2FE7D5321BEA99A7001FA967 /* LoginViewController.m */,
+			);
+			name = LoginViewControllers;
+			sourceTree = "<group>";
+		};
+		89EFC45F1BF28991009F6AB9 /* LocationViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LocationViewControllers;
+			sourceTree = "<group>";
+		};
+		89EFC4601BF289A8009F6AB9 /* EventViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EventViewControllers;
+			sourceTree = "<group>";
+		};
+		89EFC4611BF289B9009F6AB9 /* StepViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89EFC4641BF2C0DD009F6AB9 /* CoffeeStepViewController.h */,
+				89EFC4651BF2C0DD009F6AB9 /* CoffeeStepViewController.m */,
+				B26D72621BFB9AD900A9B4C4 /* TimerViewController.h */,
+				B26D72631BFB9AD900A9B4C4 /* TimerViewController.m */,
+			);
+			name = StepViewControllers;
+			sourceTree = "<group>";
+		};
+		89EFC4621BF289C8009F6AB9 /* BeanViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD2DF11BE9B32A006EFD53 /* AddBeanViewController.h */,
+				B2AD2DF21BE9B32A006EFD53 /* AddBeanViewController.m */,
+				89A7653C1BEC4005006E569B /* BeanDetailViewController.h */,
+				89A7653D1BEC4005006E569B /* BeanDetailViewController.m */,
+			);
+			name = BeanViewControllers;
+			sourceTree = "<group>";
+		};
+		89EFC4631BF289D9009F6AB9 /* SketchViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SketchViewControllers;
+			sourceTree = "<group>";
+		};
+		89FBB8081BEF183E00E9B71A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FF3072D1BFD547400F73F25 /* CircularPower.h */,
+				2FF3072E1BFD547400F73F25 /* CircularPower.m */,
+				2FF3071C1BFD2EE400F73F25 /* UIView+Shake.h */,
+				2FF3071D1BFD2EE400F73F25 /* UIView+Shake.m */,
+				B2AD2EB51BF101A8006EFD53 /* BeanManager.h */,
+				B2AD2EB61BF101A8006EFD53 /* BeanManager.m */,
+				89BD40B41BF13C8D00FAAAE5 /* Location.h */,
+				89BD40B51BF13C8D00FAAAE5 /* Location.m */,
+				89BD40B11BF11FCF00FAAAE5 /* Event.h */,
+				89BD40B21BF11FCF00FAAAE5 /* Event.m */,
+				89EE82371BF023B200DB1E3D /* Step.h */,
+				89EE82381BF023B200DB1E3D /* Step.m */,
+				89FBB8091BEF193100E9B71A /* Bean.h */,
+				89FBB80A1BEF193100E9B71A /* Bean.m */,
+				B26D72651BFE46D200A9B4C4 /* TempSettingsViewController.h */,
+				B26D72661BFE46D200A9B4C4 /* TempSettingsViewController.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		9DF45D068761305E297314D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FF3071A1BFD2E7F00F73F25 /* Foundation.framework */,
+				2FF307181BFD2E6E00F73F25 /* UIKit.framework */,
+				2FF307161BFD2E6400F73F25 /* CoreGraphics.framework */,
 				591FD67865B5A60D4D4575EE /* libPods.a */,
 			);
 			name = Frameworks;
@@ -91,20 +286,10 @@
 		B2AD2D901BE9A560006EFD53 /* BeanStocks */ = {
 			isa = PBXGroup;
 			children = (
-				2FE7D5371BEAC86A001FA967 /* Main.storyboard */,
-				B2AD2D941BE9A560006EFD53 /* AppDelegate.h */,
-				B2AD2D951BE9A560006EFD53 /* AppDelegate.m */,
-				B2AD2D971BE9A560006EFD53 /* ViewController.h */,
-				B2AD2D981BE9A560006EFD53 /* ViewController.m */,
-				2FE7D5341BEAC6D8001FA967 /* SignUpViewController.h */,
-				2FE7D5351BEAC6D8001FA967 /* SignUpViewController.m */,
-				2FE7D5311BEA99A7001FA967 /* LoginViewController.h */,
-				2FE7D5321BEA99A7001FA967 /* LoginViewController.m */,
-				B2AD2DF11BE9B32A006EFD53 /* AddBeanViewController.h */,
-				B2AD2DF21BE9B32A006EFD53 /* AddBeanViewController.m */,
-				B2AD2D9D1BE9A560006EFD53 /* Assets.xcassets */,
-				B2AD2D9F1BE9A560006EFD53 /* LaunchScreen.storyboard */,
-				B2AD2DA21BE9A560006EFD53 /* Info.plist */,
+				89EFC45C1BF28776009F6AB9 /* Storyboards */,
+				89FBB8081BEF183E00E9B71A /* Models */,
+				89EFC45B1BF286E9009F6AB9 /* Views */,
+				89EFC45A1BF286DB009F6AB9 /* Controllers */,
 				B2AD2D911BE9A560006EFD53 /* Supporting Files */,
 			);
 			path = BeanStocks;
@@ -113,6 +298,10 @@
 		B2AD2D911BE9A560006EFD53 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FF307321BFDAAD500F73F25 /* Assets.xcassets */,
+				B2AD2D941BE9A560006EFD53 /* AppDelegate.h */,
+				B2AD2D951BE9A560006EFD53 /* AppDelegate.m */,
+				B2AD2DA21BE9A560006EFD53 /* Info.plist */,
 				B2AD2D921BE9A560006EFD53 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -180,7 +369,7 @@
 			files = (
 				2FE7D5391BEAC86A001FA967 /* Main.storyboard in Resources */,
 				B2AD2DA11BE9A560006EFD53 /* LaunchScreen.storyboard in Resources */,
-				B2AD2D9E1BE9A560006EFD53 /* Assets.xcassets in Resources */,
+				2FF307331BFDAAD500F73F25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,12 +428,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BD40B31BF11FCF00FAAAE5 /* Event.m in Sources */,
+				89FBB80B1BEF193100E9B71A /* Bean.m in Sources */,
+				89EFC4661BF2C0DD009F6AB9 /* CoffeeStepViewController.m in Sources */,
+				2FEA39FD1BFA928300935A85 /* ToasterViewController.m in Sources */,
 				B2AD2DF31BE9B32A006EFD53 /* AddBeanViewController.m in Sources */,
+				2FF3072F1BFD547400F73F25 /* CircularPower.m in Sources */,
+				89A7653B1BEC3AC8006E569B /* BeanTableViewCell.m in Sources */,
 				B2AD2D991BE9A560006EFD53 /* ViewController.m in Sources */,
 				2FE7D5361BEAC6D8001FA967 /* SignUpViewController.m in Sources */,
+				B2AD2EB71BF101A8006EFD53 /* BeanManager.m in Sources */,
 				B2AD2D961BE9A560006EFD53 /* AppDelegate.m in Sources */,
+				B26D72641BFB9AD900A9B4C4 /* TimerViewController.m in Sources */,
+				2FF307211BFD339D00F73F25 /* AnyObjectViewController.m in Sources */,
+				2FEA3A031BFAAA7200935A85 /* FanViewController.m in Sources */,
+				89A7653E1BEC4005006E569B /* BeanDetailViewController.m in Sources */,
+				2FF3071E1BFD2EE400F73F25 /* UIView+Shake.m in Sources */,
 				B2AD2D931BE9A560006EFD53 /* main.m in Sources */,
+				2FEA39FA1BFA6FD300935A85 /* LightViewController.m in Sources */,
+				89BD40B61BF13C8D00FAAAE5 /* Location.m in Sources */,
+				2FEA3A001BFA9D3A00935A85 /* HeaterViewController.m in Sources */,
 				2FE7D5331BEA99A7001FA967 /* LoginViewController.m in Sources */,
+				B26D72671BFE46D200A9B4C4 /* TempSettingsViewController.m in Sources */,
+				89EFC4591BF286C5009F6AB9 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

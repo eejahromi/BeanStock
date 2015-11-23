@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
-@interface AppDelegate ()
+@interface AppDelegate () <PTDBeanManagerDelegate, PTDBeanDelegate>
 
 @end
 
@@ -17,8 +18,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"TY4sBBwRdlPCdfXH5MDTJB5mFLBvEQBlnKtnalH8"
+                  clientKey:@"j4aSbeGlaGAnHTCXvKQ5s6f8tJnUNuJBsdUFMxLV"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    self.beanManager = [[PTDBeanManager alloc] init];
+    [self setupAppearance];
     return YES;
 }
+
+-(void)setupAppearance{
+    UINavigationBar *navBarAppearance = [UINavigationBar appearance];
+    //navBarAppearance.tintColor = [UIColor blackColor];
+    navBarAppearance.barTintColor = [UIColor colorWithRed:174/255.0 green:150/255.0 blue:81/255.0 alpha:1.0];
+    navBarAppearance.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]}; // nav bar title color
+    
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

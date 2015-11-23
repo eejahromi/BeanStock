@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BeanManager.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) PTDBeanManager *beanManager;
 
 @end
 

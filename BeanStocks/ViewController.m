@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UITableViewDataSource,UITableViewDelegate>
+
+@interface ViewController () <PTDBeanManagerDelegate, PTDBeanDelegate, UITableViewDataSource,UITableViewDelegate>
 
 @end
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.beanManager = [[BeanManager sharedInstance] initWithDelegate:self];
+    
+    self.navigationItem.hidesBackButton = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning {
